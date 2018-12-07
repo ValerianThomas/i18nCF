@@ -20,9 +20,9 @@ export default {
     nl: 'Email'
   },
   description: {
-    en: "Enter the person's information",
-    fr: 'Entrer les données de la personne',
-    nl: 'Voer de gegevens van de persoon in'
+    en: "Person # ",
+    fr: 'Personne #',
+    nl: 'Persoon # '
   },
   title: {
     en: 'Who does the carcheck?',
@@ -32,25 +32,25 @@ export default {
   role: {
     en: 'Which is your role',
     fr: 'Quel est votre rôle?',
-    nl: 'Wat is uw functie?',
+    nl: 'Wat is uw rol?',
     // @i18n
   },
   driver: {
     en: 'The driver',
-    fr: 'Le conducteur',
-    nl: 'De bestuurder',
+    fr: 'Le conducteur de ce véhicule',
+    nl: 'Bestuurder van deze wagen',
     // @i18n
   },
   inspector: {
-    en: 'The inspector',
-    fr: "L'inspecteur",
-    nl: 'De inspecteur',
+    en: 'Inspector',
+    fr: "Inspecteur",
+    nl: 'Inspecteur',
     // @i18n
   },
   fleetManager: {
-    en: 'The fleet manager',
-    fr: 'Le gestionnaire de flotte',
-    nl: 'De fleetmanager',
+    en: 'Fleet manager',
+    fr: 'Gestionnaire de flotte',
+    nl: 'Fleetmanager',
   },
   // @i18n
   nameError: {
@@ -63,6 +63,16 @@ export default {
     en: 'Please enter a valid email',
     fr: 'SVP rentrez un email valide',
     nl: 'Voer een geldig e-mailadres in',
+  },
+  roleError: {
+    en: 'Please select a role',
+    fr: 'Veuillez sélectionner un rôle',
+    nl: 'Gelieve een rol te kiezen',
+  },
+  signError: {
+    en: 'Signing is mandatory',
+    nl: 'Gelieve te handtekenen',
+    fr: 'Signer est obligatoire',
   },
   // @i18n
   configuration: {
@@ -80,6 +90,6 @@ export default {
   validationError: {
     en: 'Please fill in all the fields to continue',
     fr: 'SVP remplissez tous les champs pour continuer',
-    nl: 'Vul alstublieft alle velden in om verder te gaan',
+    nl: 'Vul alle velden in om verder te gaan',
   }
 }

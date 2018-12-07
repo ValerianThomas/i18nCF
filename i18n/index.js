@@ -8,9 +8,7 @@ import Welcome from './Welcome'
 import Comments from './Coments'
 import Inventory from './Inventory'
 import Review from './Review'
-import Quoting from './Quoting'
-import SignIn from './SignIn'
-import SignUp from './SignUp'
+
 import _ from 'lodash'
 
 const keyed = {
@@ -24,9 +22,6 @@ const keyed = {
   review: Review,
   comments: Comments,
   inventory: Inventory,
-  quoting: Quoting,
-  signIn: SignIn,
-  signUp: SignUp,
 }
 
 export default function getText (lang, category, path) {
