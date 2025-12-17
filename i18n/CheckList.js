@@ -3,14 +3,9 @@ export default {
     label: {
       en: 'What is the general condition of the vehicle?',
       fr: "Quel est l'état général du véhicule?",
-      nl: ' Wat is de algemene staat van de auto?'
+      nl: ' Hoe is de algemene staat van het voertuig?'
     },
     items: {
-      wet: {
-        'en': 'Wet vehicule',
-        'fr': 'Véhicule mouillé',
-        'nl': 'Nat voertuig'
-      },
       winterTyres: {
         'en': 'Winter tyres',
         'fr': "Pneus d'hiver",
@@ -40,9 +35,9 @@ export default {
   },
   documents: {
     label: {
-      en: 'what are the documents present in the car?',
-      fr: 'quels sont les documents présents dans la voiture?',
-      nl: 'Wat zijn de documenten in de auto?'
+      en: 'What are the documents present in the car?',
+      fr: 'Quels sont les documents présents dans la voiture?',
+      nl: 'Welke documenten zijn er in de wagen aanwezig?'
     },
     items: {
       registrationCertificate: {
@@ -63,7 +58,7 @@ export default {
       maintenanceBook: {
         'en': 'Maintenance book',
         'fr': "Manuel d'entretien",
-        'nl': 'Onderhoudsboek'
+        'nl': 'Onderhoudsboekje'
       },
       greenCard: {
         'en': 'Green card',
@@ -127,12 +122,12 @@ export default {
       spareTyres: {
         'en': 'Spare tire or repair kit',
         'fr': 'Roue de secours ou Kit de réparation',
-        'nl': 'Reserve wiel of herstelkit'
+        'nl': 'Reservewiel of herstelkit'
       },
       legalKit: {
         'en': 'First Aid kit',
         'fr': 'Trousse de secours',
-        'nl': 'Eerste hulp kit'
+        'nl': 'Eerste-hulp-kit'
       },
       bikeCarriers: {
         'en': 'Bike Carriers',

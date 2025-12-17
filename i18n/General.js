@@ -7,17 +7,17 @@ export default {
   Yes: {
     en: 'Yes',
     nl: 'Ja',
-    fr: 'Oui',
+    fr: 'Oui'
   },
   No: {
     en: 'No',
     nl: 'Nee',
-    fr: 'Non',
+    fr: 'Non'
   },
   ok: {
     en: 'Ok',
     nl: 'Ok',
-    fr: 'Ok',
+    fr: 'Ok'
   },
   thankYou: {
     fr: 'Merci',
@@ -25,57 +25,57 @@ export default {
     en: 'Thank you'
   },
   goodBye: {
-    fr: 'Vous recevrez le rapport par Email',
-    nl: 'Je krijgt het rapport per Email',
-    en: 'You will receive the report by Email'
+    fr: 'Vous êtes sur le point de soumettre le rapport au référentiel du gestionnaire de flotte',
+    nl: 'U staat op het punt het rapport in te dienen bij de repository van de fleetmanager',
+    en: "You are about to submit the report to the fleet manager's repository"
   },
   Send: {
-    fr: 'Envoyer',
-    nl: 'Verzenden',
-    en: 'Send'
+    fr: "Soumettre & Retour à l'écran d'accueil",
+    nl: 'Aanmelden & Terug naar het startscherm',
+    en: 'Submit & Back to homescreen'
   },
   TypeCheck: {
     title: {
       en: '',
       nl: '',
-      fr: '',
+      fr: ''
     },
     description: {
-      en: 'Which type of carcheck do you need?',
-      fr: "Quel type d'inspection avez-vous besoin?",
-      nl: 'Wat voor inspectie heb je nodig'
+      en: 'Which car check do you need?',
+      fr: 'Quel inspection faites-vous?',
+      nl: 'Welke inspectie voer je uit?'
     }, // @i18n
     available: {
       quick: {
         label: {
-          en: 'Visual carheck',
-          fr: 'Inspection visuelle',
-          nl: 'Visuele inspectie',
+          en: 'Quick car check',
+          fr: 'Inspection rapide',
+          nl: 'Snelle inspectie'
         }, // @i18n
         description: {
-          en: 'Capture rapidly damages only',
+          en: 'Capture rapidly damages',
           fr: 'Listez rapidement les dégâts',
-          nl: 'Leg snel snel verliezen vast',
-        }, // @i18n
+          nl: 'Stel snel schade vast'
+        } // @i18n
       },
       long: {
         label: {
-          en: 'Complete carcheck',
-          fr: 'Inspection complète',
-          nl: 'Volledige inspectie',
+          en: 'Complete car check',
+          fr: 'Inspection exhaustive',
+          nl: 'Uitgebreide inspectie'
         }, // @i18n
         description: {
           en: 'Capture the full condition of the vehicle',
-          fr: "Listez l'état complet du véhicule",
-          nl: 'Leg de volledige staat van het voertuig vast',
+          fr: "Listez l'état complet du véhicule (degâts, documents, accessoires)",
+          nl: 'Leg de volledige staat van het voertuig vast (schade, documenten, toebehoren)'
         } // @i18n
-      },
+      }
     },
     delete: {
       fr: 'Supprimer',
       en: 'Delete',
-      nl: 'Schrappen'
-    },
+      nl: 'Verwijderen'
+    }
   },
   camera: {
     confirmLabel: {
@@ -87,7 +87,7 @@ export default {
       fr: 'annuler',
       en: 'cancel',
       nl: 'annuleren'
-    },
+    }
   },
   inventoryTab: {
     en: 'Inventory',
@@ -97,37 +97,41 @@ export default {
   damagesTab: {
     en: 'Damages',
     fr: 'Dommages',
-    nl: 'Schade',
+    nl: 'Schade'
   },
   picturesTab: {
     en: 'Pictures',
     fr: 'Photos',
-    nl: 'Fotos'
+    nl: 'Foto\'s'
   },
   loading: {
     en: 'Loading',
     fr: 'Chargement',
-    nl: 'Bezig met laden'
+    nl: 'Aan het laden'
   },
   validate: {
     en: 'Validate',
     fr: 'Valider',
-    nl: 'Bevestigen',
-
+    nl: 'Bevestigen'
   },
   networkError: {
     en: 'There was a network error',
     fr: 'Il y a eu une erreur de réseau',
-    nl: 'Er is een netwerkfout opgetreden',
+    nl: 'Er is een netwerkfout'
   },
   authError: {
     en: 'You were disconnected',
     fr: 'Vous êtes déconnecté',
-    nl: 'Je bent afgesloten',
+    nl: 'Netwerk verbroken'
   },
   setPrice: {
     en: 'Set price',
     fr: 'Définir le prix',
-    nl: 'stel de prijs in',
+    nl: 'Stel de prijs in'
+  },
+  delete: {
+    fr: 'Supprimer',
+    en: 'Delete',
+    nl: 'Wissen'
   }
 }

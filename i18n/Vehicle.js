@@ -1,8 +1,8 @@
 export default {
   plate: {
-    en: 'Registration',
-    fr: 'Immatriculation',
-    nl: 'Nummerplaat'
+    en: 'Plate Number',
+    fr: 'Numéro de plaque',
+    nl: 'Plaatnummer'
   },
   kilometer: {
     en: 'Mileage',
@@ -31,13 +31,13 @@ export default {
   },
   title: {
     en: 'Which vehicle & company?',
-    fr: 'Quel véhicule et compagnie?',
-    nl: 'Welk voertuig en bedrijf?'
+    fr: 'Société et véhicule?',
+    nl: 'Bedrijf en voertuig?'
   },
   longTitle: {
     en: 'Which vehicle & company?',
-    fr: 'Quel véhicule et compagnie?',
-    nl: 'Welk voertuig en bedrijf?'
+    fr: 'Pour quel société et véhicule?',
+    nl: 'Voor welk bedrijf en voertuig?'
   },
   inCompleteForm: {
     title: {
@@ -55,7 +55,7 @@ export default {
     button: {
       en: 'Dashboard picture',
       fr: 'Photo Tableau de bord',
-      nl: 'Dashboard foto',
+      nl: 'Fot Dashboard',
     },
     description: {
       en: 'Take a picture of the mileage on the dashboard (dashboard switched-on)',

@@ -2,12 +2,12 @@ export default {
   validationMessage: {
     en: 'All items in the documents section must be set to either missing or available',
     fr: 'Tous les éléments de la section document doivent être marqués soit en manquant ou disponible',
-    nl: 'Alle items in het gedeelte documenten moeten worden ingesteld op ontbrekend of beschikbaar',
+    nl: 'Alle elementen in het gedeelte documenten moeten worden ingesteld op ontbrekend of beschikbaar',
   },
   title: {
     en: 'Inventory report',
     fr: 'Inventaire',
-    nl: 'Inventarisatierapport',
+    nl: 'Inventarisrapport',
   },
   camera: {
     description: {
@@ -17,40 +17,40 @@ export default {
     }
   },
   pictureDescription: {
-    'en': 'Photos of the documents',
+    'en': 'Photo of the documents',
     'fr': 'Photo des documents',
-    'nl': "Foto's van de documenten",
+    'nl': "Foto van de documenten",
   },
   dashboardDescription: {
     'en': 'Dashboard picture',
-    'fr': 'photo du tableau de bord',
-    'nl': 'Dashboard foto',
+    'fr': 'Photo du tableau de bord',
+    'nl': 'Foto van het dashboard',
   },
   documentsQuote: {
-    'en': 'Documents quote',
-    'fr': 'Estimation documents',
-    'nl': 'Afbeelding van het dashboard',
+    'en': 'Documents cost',
+    'fr': 'Coût des documents',
+    'nl': 'Documentenkost',
   },
   inventoryQuote: {
-    'en': 'Inventory estimation',
-    'fr': "Estimation de l'inventaire",
-    'nl': 'Voorraadschatting',
+    'en': 'Inventory cost',
+    'fr': "Coût de l'inventaire",
+    'nl': 'Inventariskost',
   },
   modal: {
     title: {
       en: 'Item present?',
       fr: 'Article présent?',
-      nl: 'Item aanwezig?',
+      nl: 'Element aanwezig?',
     },
     topLabel: {
       en: 'Missing / Damaged',
       fr: 'Manquant / Endommagé',
-      nl: 'Ontbrekende / Beschadigde'
+      nl: 'Ontbrekend / Beschadigd'
     },
     middleLabel: {
-      en: "Not applicable / I don' know",
-      fr: 'Pas applicable / Je ne sais pas',
-      nl: 'Niet van toepassing / Ik weet het niet'
+      en: "Else: Not applicable / I don't know",
+      fr: 'Sinon: Pas applicable / Je ne sais pas',
+      nl: 'Anders: Niet van toepassing / Ik weet het niet'
     },
     bottomLabel: {
       en: 'Present / not damaged',

@@ -5,8 +5,8 @@ export default {
     nl: 'HANDTEKENING'
   },
   reset: {
-    en: 'reset',
-    fr: 'refaire',
-    nl: 'reset'
+    en: 'Undo',
+    fr: 'Annuler',
+    nl: 'Ongedaan maken'
   }
 }
